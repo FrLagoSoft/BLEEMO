@@ -1,0 +1,254 @@
+[
+    {
+        "id": "first_name",
+        "group": "personal_identifiers",
+        "description": "The user's first name as it's given",
+        "examples": ["First Name", "Legal first name", "Given name"],
+        "not": ["'Full name' -> full name","'Preferred name' -> preferred_name", "'Legal name' -> legal_name" ]
+    },
+    {
+        "id": "last_name",
+        "group": "personal_identifiers",
+        "description": "The user's last name as it's given",
+        "examples": ["Last Name", "Family Name", "Surname", "Legal last name"],
+        "not": ["'Full name' -> full name","'Preferred name' -> preferred_name", "'Legal name' -> legal_name" ]
+    },
+    {
+        "id": "full_name",
+        "group": "personal_identifiers",
+        "description": "The user's full family name, as it's given. The first + last name",
+        "examples": ["Full Name", "Complete Name", "Given Name and Surname", "Legal name", "Name"],
+        "not": ["'First name' -> first name","'Last name' -> last_name", "'Legal first name' -> legal_first_name", "'Legal last name' -> legal_last_name" ]
+    },
+    {
+        "id": "email",
+        "group": "personal_identifiers",
+        "description": "The user's email address, written as a whole email address, verified with @ and verification",
+        "examples": ["Email", "User Email", "Email adress", "Email link"],
+        "not": ["'Address' -> address","'Link' -> link"]
+    },
+    {
+        "id": "phone_number",
+        "group": "personal_identifiers",
+        "description": "The user's phone number, written with no space in code to prevent alteration",
+        "examples": ["Phone", "Phone number", "Cellphone number", "Home number", "Tellephone Number"],
+        "not": ["Number' -> number","'Social Security Number' -> social_security_number", "'SSN' -> ssn"]
+    },
+    {
+        "id": "address",
+        "group": "personal_identifiers",
+        "description": "The user's FULL legal address, down to the street number, ln, everything",
+        "examples": ["Current Location", "Location", "Address", "Legal Address", "Ubication", "Full address", "Legal Residence"],
+        "not": ["'City' -> city", "'State' -> state", "'Country' -> country", "'Area' -> area"]
+    },
+    {
+        "id": "ZIP",
+        "group": "personal_identifiers",
+        "description": "The user's ZIP code",
+        "examples": ["ZIP", "zip", "zip code", "zip area"],
+        "not": ["'City' -> city", "'State' -> state", "'Country' -> country", "'Area' -> area"]
+    },
+    {
+        "id": "State",
+        "group": "personal_identifiers",
+        "description": "The user's State",
+        "examples": ["State", "Province", "Territory"],
+        "not": ["'City' -> city", "'ZIP' -> zip", "'Country' -> country", "'Area' -> area"]
+    },
+    {
+        "id": "Country",
+        "group": "personal_identifiers",
+        "description": "The user's Country",
+        "examples": ["Country", "Nation", "State"],
+        "not": ["'City' -> city", "'ZIP' -> zip", "'State' -> state", "'Area' -> area"]
+    },
+    {
+        "id": "Current_company",
+        "group": "personal_identifiers",
+        "description": "The user's current company",
+        "examples": ["Current Company", "Employer", "Workplace"],
+        "not": ["'Employment' -> employment", "'past' -> past", "'Legal' -> legal", "'Previous' -> previous"]
+    },
+    {
+        "id": "student_status",
+        "group": "personal_identifiers",
+        "description": "The user's student status",
+        "examples": ["Student", "Currently Enrolled", "In School", "Learning","Enrolled", "Pursuing education"],
+        "not": ["'Graduate' -> graduate", "'Alumni' -> alumni", "'Not a student' -> not_a_student"]
+    },
+    {
+        "id": "alumni_status",
+        "group": "personal_identifiers",
+        "description": "The user's alumni status",
+        "examples": ["Alumni", "Former Student", "Graduated", "Completed Education"],
+        "not": ["'Student' -> student", "'Currently Enrolled' -> currently_enrolled", "'Not a student' -> not_a_student"]
+    },
+    {
+        "id": "age",
+        "group": "personal_identifiers",
+        "description": "The user's age (Over 18 or not), exact age maybe...",
+        "examples": ["Age", "seniority", "Years Old", "How old"],
+        "not": ["'Date of Birth' -> date_of_birth", "'Birthdate' -> birthdate", "'DOB' -> dob"]
+    },
+    {
+        "id": "date_of_birth",
+        "group": "personal_identifiers",
+        "description": "The user's date of birth",
+        "examples": ["Date of Birth", "Birthdate", "DOB", "Birthday"],
+        "not": ["'Age' -> age", "'Years Old' -> years_old", "'How old' -> how_old"]
+    },
+    {
+        "id": "linkedin_url",
+        "group": "personal_links",
+        "description": "The user's LinkedIn profile URL",
+        "examples": ["LinkedIn Profile", "LinkedIn URL", "Professional Network Link", "LinkedIn Page", "LinkedIn Account", "LinkedIn"],
+        "not": ["'Github' -> github", "'Twitter' -> twitter", "'Personal' -> personal", "'Other links' -> other_links"]
+    },
+    {
+        "id": "github_url",
+        "group": "personal_links",
+        "description": "The user's GitHub profile URL",
+        "examples": ["GitHub Profile", "GitHub URL", "Code Repository Link", "GitHub Page", "GitHub Account", "GitHub"],
+        "not": ["'LinkedIn website link' -> linkedin", "'Twitter website link' -> twitter", "'Personal website link' -> personal", "'Other links' -> other_links"]
+    },
+    {
+        "id": "twitter_url",
+        "group": "personal_links",
+        "description": "The user's Twitter profile URL",
+        "examples": ["Twitter Profile", "Twitter URL", "Social Media Link", "Twitter Page", "Twitter Account", "Twitter"],
+        "not": ["'LinkedIn website link' -> linkedin", "'GitHub website link' -> github", "'Personal website link' -> personal", "'Other links' -> other_links"]
+    },
+    {
+        "id": "portfolio_url",
+        "group": "personal_links",
+        "description": "The user's portfolio URL",
+        "examples": ["Portfolio", "Website", "Personal Portfolio Site", "Online PortfolioPresence"],
+        "not": ["'LinkedIn website link' -> linkedin", "'GitHub website link' -> github", "'Twitter website link' -> twitter", "'Other links' -> other_links"]
+    },
+    {
+        "id": "other_website_url",
+        "group": "personal_links",
+        "description": "The user's alternative URL, basically any other website. Legit anything",
+        "examples": ["Other Website", "Additional Site", "Alternate Profile"],
+        "not": ["'LinkedIn website link' -> linkedin", "'GitHub website link' -> github", "'Twitter website link' -> twitter", "'Portfolio website link' -> portfolio"]
+    },
+    {
+        "id": "personal_website_url",
+        "group": "personal_links",
+        "description": "The user's personal website URL",
+        "examples": ["Personal Website", "Blog", "Personal Page"],
+        "not": ["'LinkedIn website link' -> linkedin", "'GitHub website link' -> github", "'Twitter website link' -> twitter", "'Other links' -> other_links", "'Portfolio website link' -> portfolio"]
+    },
+    {
+        "id": "social_media_url",
+        "group": "personal_links",
+        "description": "The user's social media URL, basically any other social media. Legit anything",
+        "examples": ["Social Media", "Social Media Profile", "Social Media Link"],
+        "not": ["'LinkedIn website link' -> linkedin", "'GitHub website link' -> github", "'Twitter website link' -> twitter", "'Portfolio website link' -> portfolio"]
+    },
+    {
+        "id": "resume",
+        "group": "personal_documents",
+        "description": "The user's resume, pdf, or CV document, typed in their format and ready for revision",
+        "examples": ["Resume", "CV", "Curriculum Vitae", "Professional Summary", "Work Experience Document", "Career Profile"],
+        "not": ["'Cover Letter' -> cover_letter", "'Portfolio' -> portfolio", "'References' -> references"]
+    },
+    {
+        "id": "cover_letter",
+        "group": "personal_documents",
+        "description": "The user's cover letter, pdf, or document, typed in their format and ready for revision",
+        "examples": ["Cover Letter", "Job Application Letter", "Motivation Letter", "Letter of Interest"],
+        "not": ["'Resume' -> resume", "'CV' -> cv", "'Portfolio' -> portfolio", "'References' -> references"]
+    },
+    {
+        "id": "references",
+        "group": "personal_documents",
+        "description": "The user's references document, pdf, or document, typed in their format and ready for revision",
+        "examples": ["References", "Reference List", "Professional References", "Recommendation Letters"],
+        "not": ["'Resume' -> resume", "'Cover Letter' -> cover_letter", "'Portfolio' -> portfolio", "'References' -> references"]
+    },
+    {
+        "id": "work_authorization",
+        "group": "eligibility",
+        "description": "Whether the applicant is legally allowed to work in the job's country.",
+        "examples": ["Are you legally able to work in Canada?", "Are you legally authorized to work in the United States?", "Work Authorization", "Are you eligible to work in this country?"],
+        "not": ["'Will you require sponsorship?' -> needs_sponsorship"]
+    },
+    {
+        "id": "needs_sponsorship",
+        "group": "eligibility",
+        "description": "Whether the applicant needs visa sponsorship, now or in the future.",
+        "examples": ["Will you now or in the future require sponsorship for employment visa status?", "Do you require visa sponsorship?", "Sponsorship Required"],
+        "not": ["'Are you legally authorized to work?' -> work_authorization"]
+    },
+    {
+        "id": "availability",
+        "group": "eligibility",
+        "description": "When the applicant can work: internship term, start date or duration.",
+        "examples": ["Please indicate your availability for the internship.", "Availability", "When can you start?", "Earliest Start Date"],
+        "not": ["'Will you be returning to your studies?' -> returning_to_studies"]
+    },
+    {
+        "id": "returning_to_studies",
+        "group": "eligibility",
+        "description": "Whether the applicant goes back to school after the internship.",
+        "examples": ["Will you be returning to your studies after the internship?", "Are you returning to school after this term?"],
+        "not": ["'Are you currently enrolled?' -> student_status"]
+    },
+    {
+        "id": "screening_question",
+        "group": "screening",
+        "description": "A company-specific yes/no or choice question about skills, experience or job conditions. Never autofilled from a save slot.",
+        "examples": ["Have you had prior experience using Python on a design team or a Software development internship?", "Do you have experience writing unit tests?", "Are you able to work from our office as required?"],
+        "not": ["'If yes, please describe the experience briefly.' -> open_ended_question", "'Are you legally able to work?' -> work_authorization"]
+    },
+    {
+        "id": "open_ended_question",
+        "group": "screening",
+        "description": "A free-text question the applicant answers in their own words.",
+        "examples": ["If yes, please describe the experience briefly.", "Why do you want to work here?", "Tell us about a project you're proud of.", "Additional comments"],
+        "not": ["'Do you have experience with Python?' -> screening_question", "'Cover letter' -> cover_letter"]
+    },
+    {
+        "id": "eeo_ethnicity",
+        "group": "eeo",
+        "description": "Voluntary self-identification of race or ethnicity. Filled only as the user chooses.",
+        "examples": ["With which ethnicity do you identify?", "Race/Ethnicity", "Ethnicity", "Race"],
+        "not": ["'Gender' -> eeo_gender"]
+    },
+    {
+        "id": "eeo_gender",
+        "group": "eeo",
+        "description": "Voluntary self-identification of gender. Filled only as the user chooses.",
+        "examples": ["With which gender do you identify?", "Gender", "Gender Identity"],
+        "not": ["'Sexual orientation' -> eeo_sexual_orientation", "'Preferred name' -> other"]
+    },
+    {
+        "id": "eeo_sexual_orientation",
+        "group": "eeo",
+        "description": "Voluntary self-identification of sexual orientation. Filled only as the user chooses.",
+        "examples": ["With which sexual orientation do you identify?", "Sexual Orientation"],
+        "not": ["'Gender' -> eeo_gender"]
+    },
+    {
+        "id": "eeo_disability",
+        "group": "eeo",
+        "description": "Voluntary self-identification of disability status. Filled only as the user chooses.",
+        "examples": ["Do you identify as a person with a visible or non-visible disability?", "Disability Status", "Do you have a disability?"],
+        "not": ["'Veteran status' -> eeo_veteran"]
+    },
+    {
+        "id": "eeo_veteran",
+        "group": "eeo",
+        "description": "Voluntary self-identification of military or veteran status. Filled only as the user chooses.",
+        "examples": ["Are you a veteran/have you served in the military?", "Veteran Status", "Protected Veteran Status"],
+        "not": ["'Disability status' -> eeo_disability"]
+    },
+    {
+        "id": "other",
+        "group": "catch_all",
+        "description": "Any field that fits no other category.",
+        "examples": ["Additional Information", "Middle Initial", "Fax"],
+        "not": ["'Other website' -> other_website_url"]
+    }
+]
