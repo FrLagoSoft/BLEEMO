@@ -250,5 +250,274 @@
         "description": "Any field that fits no other category.",
         "examples": ["Additional Information", "Middle Initial", "Fax"],
         "not": ["'Other website' -> other_website_url"]
-    }
+    },
+    {
+    "id": "preferred_name",
+    "group": "personal_identifiers",
+    "description": "The name the applicant goes by, when it differs from their legal first name.",
+    "examples": [
+      "Preferred First Name",
+      "Preferred Name",
+      "Nickname",
+      "Name You Go By"
+    ],
+    "not": [
+      "'Legal first name' -> first_name",
+      "'Full name' -> full_name"
+    ]
+  },
+  {
+    "id": "middle_name",
+    "group": "personal_identifiers",
+    "description": "The applicant's middle name or names.",
+    "examples": [
+      "Middle Name",
+      "Middle Names",
+      "Middle Name (Optional)"
+    ],
+    "not": [
+      "'First name' -> first_name",
+      "'Last name' -> last_name"
+    ]
+  },
+  {
+    "id": "phone_type",
+    "group": "personal_identifiers",
+    "description": "The kind of phone the number belongs to, usually a dropdown (mobile, home, business).",
+    "examples": [
+      "Phone Device Type",
+      "Phone Type",
+      "Device Type"
+    ],
+    "not": [
+      "'Phone number' -> phone_number",
+      "'Address type' -> address_type"
+    ]
+  },
+  {
+    "id": "phone_country_code",
+    "group": "personal_identifiers",
+    "description": "The country calling code for the phone number, usually a searchable dropdown.",
+    "examples": [
+      "Country Phone Code",
+      "Phone Country Code",
+      "Country Code",
+      "Dialing Code"
+    ],
+    "not": [
+      "'Phone number' -> phone_number",
+      "'Country' -> Country"
+    ]
+  },
+  {
+    "id": "phone_extension",
+    "group": "personal_identifiers",
+    "description": "The extension number for a phone line.",
+    "examples": [
+      "Phone Extension",
+      "Extension",
+      "Ext."
+    ],
+    "not": [
+      "'Phone number' -> phone_number"
+    ]
+  },
+  {
+    "id": "address_type",
+    "group": "personal_identifiers",
+    "description": "The kind of address, usually a dropdown (home, mailing, work).",
+    "examples": [
+      "Address Type",
+      "Type of Address"
+    ],
+    "not": [
+      "'Address' -> address",
+      "'Phone type' -> phone_type"
+    ]
+  },
+  {
+    "id": "address_line_2",
+    "group": "personal_identifiers",
+    "description": "The second street-address line: apartment, suite or unit.",
+    "examples": [
+      "Address 2",
+      "Address Line 2",
+      "Apartment, suite, etc.",
+      "Apt/Suite"
+    ],
+    "not": [
+      "'Address line 1' -> address",
+      "'City' -> city"
+    ]
+  },
+  {
+    "id": "city",
+    "group": "personal_identifiers",
+    "description": "The applicant's city or town.",
+    "examples": [
+      "City",
+      "Town",
+      "City/Town"
+    ],
+    "not": [
+      "'Address' -> address",
+      "'State' -> State"
+    ]
+  },
+  {
+    "id": "referral_source",
+    "group": "logistics",
+    "description": "How the applicant found the job, usually a dropdown.",
+    "examples": [
+      "How did you hear about us?",
+      "How did you learn about this position?",
+      "Source",
+      "Referral Source"
+    ],
+    "not": [
+      "'Please specify' -> referral_detail"
+    ]
+  },
+  {
+    "id": "referral_detail",
+    "group": "logistics",
+    "description": "The follow-up that narrows down the referral source.",
+    "examples": [
+      "Please specify",
+      "If other, please specify",
+      "Which job board?"
+    ],
+    "not": [
+      "'How did you hear about us?' -> referral_source",
+      "'Referrer name' -> third_party_info"
+    ]
+  },
+  {
+    "id": "school_name",
+    "group": "education",
+    "description": "The applicant's school, college or university, picked from a list or typed in.",
+    "examples": [
+      "School",
+      "School (If not applicable, select Other)",
+      "Other School (if not in school picklist)",
+      "University",
+      "College or University"
+    ],
+    "not": [
+      "'Degree' -> degree",
+      "'Education country' -> education_country"
+    ]
+  },
+  {
+    "id": "degree",
+    "group": "education",
+    "description": "The degree pursued or earned (B.S., B.A., M.S. and so on).",
+    "examples": [
+      "Degree",
+      "Degree (If not applicable, select Other)",
+      "Degree Type",
+      "Level of Education"
+    ],
+    "not": [
+      "'Major' -> major",
+      "'School' -> school_name"
+    ]
+  },
+  {
+    "id": "major",
+    "group": "education",
+    "description": "The applicant's field of study.",
+    "examples": [
+      "Major",
+      "Field of Study",
+      "Area of Study",
+      "Discipline"
+    ],
+    "not": [
+      "'Degree' -> degree"
+    ]
+  },
+  {
+    "id": "graduated",
+    "group": "education",
+    "description": "A yes/no question about whether the applicant has completed the degree.",
+    "examples": [
+      "Did You Graduate?",
+      "Have you graduated?",
+      "Degree Completed?"
+    ],
+    "not": [
+      "'Graduation date' -> graduation_date",
+      "'Are you currently enrolled?' -> student_status"
+    ]
+  },
+  {
+    "id": "education_start_date",
+    "group": "education",
+    "description": "When the applicant started at the school. One category for the whole date: fill logic picks the month, day or year part from the field's name.",
+    "examples": [
+      "Education Start Date",
+      "Attended From",
+      "School Start Date"
+    ],
+    "not": [
+      "'Graduation date' -> graduation_date",
+      "'Earliest start date' -> availability"
+    ]
+  },
+  {
+    "id": "graduation_date",
+    "group": "education",
+    "description": "When the applicant graduated or expects to. One category for the whole date: fill logic picks the month, day or year part from the field's name.",
+    "examples": [
+      "Graduation Date",
+      "Expected Graduation Date",
+      "Anticipated Graduation",
+      "Attended To"
+    ],
+    "not": [
+      "'Education start date' -> education_start_date",
+      "'Did you graduate?' -> graduated"
+    ]
+  },
+  {
+    "id": "education_country",
+    "group": "education",
+    "description": "The country where the applicant's school is.",
+    "examples": [
+      "School Country",
+      "Country of Education",
+      "Country of Institution"
+    ],
+    "not": [
+      "'Country' (home address) -> Country"
+    ]
+  },
+  {
+    "id": "consent_checkbox",
+    "group": "catch_all",
+    "description": "A checkbox agreeing to terms, privacy policies or data processing. Recognized but never ticked automatically: consent is the user's decision.",
+    "examples": [
+      "Yes, I have read and consent to the terms and conditions",
+      "I agree to the Privacy Policy",
+      "I consent to the processing of my personal data"
+    ],
+    "not": [
+      "'Additional information' -> other"
+    ]
+  },
+  {
+    "id": "third_party_info",
+    "group": "catch_all",
+    "description": "Information about someone other than the applicant (references, emergency contacts, supervisors, referrers). Never autofilled.",
+    "examples": [
+      "Reference Phone",
+      "Emergency Contact Name",
+      "Supervisor Email",
+      "Referrer Name"
+    ],
+    "not": [
+      "'Phone' (applicant's own) -> phone_number"
+    ]
+  }
 ]
