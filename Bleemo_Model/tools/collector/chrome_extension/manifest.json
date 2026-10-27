@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Bleemo Collector",
+  "version": "0.1",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://localhost:5000/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Collect this page" }
+}
