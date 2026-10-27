@@ -519,5 +519,103 @@
     "not": [
       "'Phone' (applicant's own) -> phone_number"
     ]
-  }
+    },
+    {
+        "id": "job_title",
+        "group": "experience",
+        "description": "The applicant's title in a work-experience entry.",
+        "examples": ["Job Title", "Position Title", "Role", "Title"],
+        "not": ["'Company' -> work_company", "'Role description' -> role_description"]
+    },
+    {
+        "id": "work_company",
+        "group": "experience",
+        "description": "The employer named in a work-experience entry, past or present. Different from Current_company, which asks only for the current employer.",
+        "examples": ["Company", "Company Name", "Employer Name", "Organization"],
+        "not": ["'Current company' -> Current_company", "'Job title' -> job_title"]
+    },
+    {
+        "id": "work_location",
+        "group": "experience",
+        "description": "Where a work-experience job was located. On forms it is often labeled just 'Location', so the section (e.g. 'Work Experience 1') is what separates it from the applicant's own address.",
+        "examples": ["Job Location", "Work Location", "Company Location"],
+        "not": ["'Location' (applicant's own) -> address", "'Company' -> work_company"]
+    },
+    {
+        "id": "currently_work_here",
+        "group": "experience",
+        "description": "A checkbox marking a work-experience entry as the applicant's current job.",
+        "examples": ["I currently work here", "Current Position", "I am currently employed here"],
+        "not": ["'Current company' -> Current_company"]
+    },
+    {
+        "id": "work_start_date",
+        "group": "experience",
+        "description": "When a work-experience job started. One category for the whole date; fill logic picks the month or year part from the field's name or automation id.",
+        "examples": ["Start Date", "Employment Start Date", "Date Started"],
+        "not": ["'End date' -> work_end_date", "'Earliest start date' -> availability"]
+    },
+    {
+        "id": "work_end_date",
+        "group": "experience",
+        "description": "When a work-experience job ended. One category for the whole date.",
+        "examples": ["End Date", "Employment End Date", "Date Ended"],
+        "not": ["'Start date' -> work_start_date", "'Graduation date' -> graduation_date"]
+    },
+    {
+        "id": "role_description",
+        "group": "experience",
+        "description": "Free text describing what the applicant did in a work-experience entry.",
+        "examples": ["Role Description", "Job Description", "Responsibilities", "Describe your responsibilities"],
+        "not": ["'Job title' -> job_title", "'Why do you want to work here?' -> open_ended_question"]
+    },
+    {
+        "id": "gpa",
+        "group": "education",
+        "description": "The applicant's grade point average or overall academic result.",
+        "examples": ["Overall Result (GPA)", "GPA", "Cumulative GPA", "Grade Point Average"],
+        "not": ["'Degree' -> degree", "'Major' -> major"]
+    },
+    {
+        "id": "skills",
+        "group": "experience",
+        "description": "A tag picker or text field for listing skills. Takes several values, not one.",
+        "examples": ["Type to Add Skills", "Skills", "Technical Skills", "Add Skills"],
+        "not": ["'Role description' -> role_description"]
+    },
+    {
+        "id": "previous_employee",
+        "group": "eligibility",
+        "description": "Whether the applicant has worked for this company before. Worded around each company's name.",
+        "examples": ["Have you previously been employed by any Micron company?", "Have you ever worked for this company before?", "Previous Employee"],
+        "not": ["'Current company' -> Current_company", "'I currently work here' -> currently_work_here"]
+    },
+    {
+        "id": "language",
+        "group": "languages",
+        "description": "A language the applicant speaks, usually a dropdown in a languages entry.",
+        "examples": ["Language", "Language Spoken", "Select a Language"],
+        "not": ["'Speaking' -> language_proficiency", "'I am fluent in this language' -> language_fluency"]
+    },
+    {
+        "id": "language_fluency",
+        "group": "languages",
+        "description": "A checkbox marking the language as native or fluent.",
+        "examples": ["I am fluent in this language.", "Native Speaker", "Native Language"],
+        "not": ["'Language' -> language", "'Speaking' -> language_proficiency"]
+    },
+    {
+        "id": "language_proficiency",
+        "group": "languages",
+        "description": "A proficiency level for one skill in a language (reading, writing, speaking, comprehension or overall). One category for every skill; fill logic picks the level from the save slot.",
+        "examples": ["Comprehension", "Reading", "Speaking", "Writing", "Overall Proficiency"],
+        "not": ["'Language' -> language", "'I am fluent in this language' -> language_fluency"]
+    },
+    {
+        "id": "honeypot",
+        "group": "catch_all",
+        "description": "A trap field hidden from humans to catch bots. Never filled: filling it can flag the application as spam.",
+        "examples": ["This input is for robots only", "Leave this field blank", "Do not fill this field"],
+        "not": ["'Other website' -> other_website_url"]
+    }
 ]

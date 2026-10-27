@@ -1,0 +1,37 @@
+{
+  "url": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson%2C-TX/Intern---Design-Engineer--HBM_JR112552/apply/applyManually",
+  "site": "micron.wd1.myworkdayjobs.com",
+  "title": "Intern - Design Engineer, HBM",
+  "extractorVersion": "0.7.1",
+  "collectedAt": "2026-10-20T21:30:37.278Z",
+  "fields": [
+    {
+      "order": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "id": "skills--skills",
+      "label": "Type to Add Skills",
+      "required": false,
+      "autocomplete": "off",
+      "placeholder": "Search",
+      "automationId": "formField-skills",
+      "section": "Skills",
+      "group": ""
+    },
+    {
+      "order": 1,
+      "tag": "INPUT",
+      "type": "text",
+      "name": "linkedInAccount",
+      "id": "socialNetworkAccounts--linkedInAccount",
+      "label": "Please provide your LinkedIn Profile url. Instruction: Navigate to your LinkedIn Profile page, copy the url and paste here. Please note, you may receive an error if your url is not copied from your profile page.",
+      "required": false,
+      "autocomplete": "",
+      "placeholder": "",
+      "automationId": "formField-linkedInAccount",
+      "section": "Social Network URLs",
+      "group": ""
+    }
+  ]
+}
