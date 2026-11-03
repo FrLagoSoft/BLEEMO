@@ -27,13 +27,23 @@ async function expandSections() {
   }
 }
 
+// So this is for shadow DOMs, which I found on only one website but fuck it I put it in anyway. 
+function* walkDeep(root) {
+  for (const el of root.children) {
+    yield el;
+    if (el.shadowRoot) yield* walkDeep(el.shadowRoot);
+    yield* walkDeep(el);
+  }
+}
 
 function extractFields() {
   const skipTypes = ["hidden", "submit", "button", "password", "search"];
   const credentialAutocomplete = ["username", "current-password", "new-password"];
   const captchaNames = ["h-captcha-response", "g-recaptcha-response"]; // Skip all of these
   const seen = new Set(); // Seen these? Good.
-
+  const allElements = [...walkDeep(document)];
+  const position = new Map(allElements.map((el, i) => [el, i]));
+  
   // Template storage, keyed by prefix. Some sites (Lever) keep each group of questions
   // as JSON inside a hidden input; the prefix is the shared start of the name that links
   // every question in the group to its template.
@@ -47,10 +57,9 @@ function extractFields() {
     }
   }); // This is to parse the JSON data from the input fields and store it in the templates object.
 
-  // Every heading on the page, in page order. Simple HTML element sorting.
-  const headings = Array.from(
-    document.querySelectorAll("h1, h2, h3, h4, h5, h6, [role='heading']")
-  );
+  // Every heading on the page, in page order, aside from legend. 
+  const headings = allElements.filter((el) =>
+  el.matches("h1, h2, h3, h4, h5, h6, [role='heading']"));
 
   // Remove counters like (1) and required stars, then take the first line with real text.
   function clean(text) {
@@ -80,7 +89,7 @@ function extractFields() {
   function nearestHeading(el) {
     let found = "";
     for (const h of headings) {
-      if (h.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING) {
+      if (position.get(h) < position.get(el)) {
         found = clean(h.innerText);
       } else {
         break;
@@ -116,7 +125,7 @@ function extractFields() {
     return false;
   }
 
-  return Array.from(document.querySelectorAll("input, select, textarea, button[aria-haspopup='listbox']")) // This is to select every form field on the page
+   return allElements.filter((el) => el.matches("input, select, textarea, button[aria-haspopup='listbox']")) // This is to select every form field on the page
     .filter((el) => !isJunk(el))
     .filter((el) => {
       if (el.type !== "radio" && el.type !== "checkbox") return true;
