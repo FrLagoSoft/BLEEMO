@@ -1,9 +1,21 @@
 {
   "manifest_version": 3,
   "name": "Bleemo Collector",
-  "version": "0.1",
+  "version": "1.1",
+  "description": "Developer tool: records the structure of job application forms (never values) for training data.",
   "permissions": ["activeTab", "scripting"],
-  "host_permissions": ["http://localhost:5000/*"],
+  "host_permissions": [
+    "http://localhost:5000/*",
+    "*://*.greenhouse.io/*",
+    "*://*.lever.co/*",
+    "*://*.ashbyhq.com/*",
+    "*://*.icims.com/*",
+    "*://*.myworkdayjobs.com/*",
+    "*://*.smartrecruiters.com/*",
+    "*://*.oraclecloud.com/*",
+    "*://*.successfactors.com/*",
+    "*://*.successfactors.eu/*"
+  ],
   "background": { "service_worker": "background.js" },
   "action": { "default_title": "Collect this page" }
 }

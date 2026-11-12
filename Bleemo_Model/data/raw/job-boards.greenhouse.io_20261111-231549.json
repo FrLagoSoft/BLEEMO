@@ -2,8 +2,8 @@
   "url": "https://job-boards.greenhouse.io/flagshippioneeringinc/jobs/8782467002",
   "site": "job-boards.greenhouse.io",
   "title": "Job Application for Flagship Pioneering ML Internship at Flagship Pioneering, Inc.",
-  "extractorVersion": "1.0.1",
-  "collectedAt": "2026-11-03T22:03:10.792Z",
+  "extractorVersion": "1.1",
+  "collectedAt": "2026-11-12T04:15:49.187Z",
   "fields": [
     {
       "order": 0,
@@ -12,14 +12,15 @@
       "name": "",
       "id": "first_name",
       "label": "First Name",
+      "option": "",
       "required": true,
       "autocomplete": "given-name",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 1,
@@ -28,14 +29,15 @@
       "name": "",
       "id": "last_name",
       "label": "Last Name",
+      "option": "",
       "required": true,
       "autocomplete": "family-name",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 2,
@@ -44,14 +46,15 @@
       "name": "",
       "id": "preferred_name",
       "label": "Preferred First Name",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 3,
@@ -60,14 +63,15 @@
       "name": "",
       "id": "email",
       "label": "Email",
+      "option": "",
       "required": true,
       "autocomplete": "email",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 4,
@@ -76,14 +80,15 @@
       "name": "",
       "id": "country",
       "label": "Country",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "Phone",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 5,
@@ -92,14 +97,15 @@
       "name": "",
       "id": "",
       "label": "Phone",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "Phone",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 6,
@@ -108,14 +114,15 @@
       "name": "",
       "id": "phone",
       "label": "Phone",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "Phone",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 7,
@@ -124,14 +131,15 @@
       "name": "",
       "id": "candidate-location",
       "label": "Location (City)",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 8,
@@ -140,14 +148,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 9,
@@ -155,15 +164,16 @@
       "type": "file",
       "name": "",
       "id": "resume",
-      "label": "Attach",
-      "required": false,
+      "label": "Resume/CV",
+      "option": "",
+      "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 10,
@@ -171,15 +181,16 @@
       "type": "file",
       "name": "",
       "id": "cover_letter",
-      "label": "Attach",
+      "label": "Cover Letter",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 11,
@@ -188,14 +199,15 @@
       "name": "",
       "id": "company-name-0",
       "label": "Company name",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 12,
@@ -204,14 +216,15 @@
       "name": "",
       "id": "title-0",
       "label": "Title",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 13,
@@ -220,14 +233,15 @@
       "name": "",
       "id": "start-date-month-0",
       "label": "Start date month",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 14,
@@ -236,14 +250,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 15,
@@ -252,14 +267,15 @@
       "name": "",
       "id": "start-date-year-0",
       "label": "Start date year",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 16,
@@ -268,14 +284,15 @@
       "name": "",
       "id": "end-date-month-0",
       "label": "End date month",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 17,
@@ -284,14 +301,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 18,
@@ -300,14 +318,15 @@
       "name": "",
       "id": "end-date-year-0",
       "label": "End date year",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 19,
@@ -316,14 +335,15 @@
       "name": "current-role-0",
       "id": "current-role-0_1",
       "label": "Current role",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 20,
@@ -332,14 +352,15 @@
       "name": "",
       "id": "school--0",
       "label": "School",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 21,
@@ -348,14 +369,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 22,
@@ -364,14 +386,15 @@
       "name": "",
       "id": "degree--0",
       "label": "Degree",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 23,
@@ -380,14 +403,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 24,
@@ -396,14 +420,15 @@
       "name": "",
       "id": "discipline--0",
       "label": "Discipline",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 25,
@@ -412,14 +437,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 26,
@@ -428,14 +454,15 @@
       "name": "",
       "id": "start-month--0",
       "label": "Start date month",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 27,
@@ -444,14 +471,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 28,
@@ -460,14 +488,15 @@
       "name": "",
       "id": "start-year--0",
       "label": "Start date year",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 29,
@@ -476,14 +505,15 @@
       "name": "",
       "id": "end-month--0",
       "label": "End date month",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 30,
@@ -492,14 +522,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 31,
@@ -508,14 +539,15 @@
       "name": "",
       "id": "end-year--0",
       "label": "End date year",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 32,
@@ -524,14 +556,15 @@
       "name": "",
       "id": "question_38184690002",
       "label": "What excites you about working as an ML intern at Flagship Pioneering?",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 33,
@@ -540,14 +573,15 @@
       "name": "",
       "id": "question_39101493002",
       "label": "Please select the highest level of education you have completed or are currently enrolled in.",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 34,
@@ -556,14 +590,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 35,
@@ -572,14 +607,15 @@
       "name": "",
       "id": "question_38184692002",
       "label": "What makes you qualified to be a Flagship Pioneering ML intern?",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 36,
@@ -588,14 +624,15 @@
       "name": "",
       "id": "question_38184691002",
       "label": "Provide 3-5 keywords or phrases that describe your specific expertise.",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 37,
@@ -604,14 +641,15 @@
       "name": "",
       "id": "question_38184695002",
       "label": "Describe something you’ve built that you are particularly proud of.",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 38,
@@ -620,14 +658,15 @@
       "name": "",
       "id": "question_38184696002",
       "label": "If you have open-source contributions or personal projects you’re proud of, please feel free to share your GitHub profile or portfolio link.",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 39,
@@ -636,14 +675,15 @@
       "name": "",
       "id": "question_39101494002",
       "label": "If someone referred you, please share their name and affiliation.",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 40,
@@ -652,14 +692,15 @@
       "name": "",
       "id": "question_38184699002",
       "label": "Entry-level roles at Flagship Pioneering are typically in-person in Cambridge, MA. If you are offered a full-time position after the internship, are you willing to relocate to the Boston/Cambridge area?",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 41,
@@ -668,14 +709,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 42,
@@ -684,14 +726,15 @@
       "name": "",
       "id": "question_38184701002",
       "label": "Will you now or in the future require sponsorship for employment visa status (e.g., H-1B visa status)? If you'll require the company to commence (\"sponsor\") an immigration or work permit case in order to employ you, either now or at some point in the future, then you should select Yes. Otherwise, select No.",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 43,
@@ -700,14 +743,15 @@
       "name": "",
       "id": "",
       "label": "",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "Apply for this job",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     }
   ]
 }

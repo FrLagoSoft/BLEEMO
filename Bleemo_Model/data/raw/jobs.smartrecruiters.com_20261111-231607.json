@@ -2,8 +2,8 @@
   "url": "https://jobs.smartrecruiters.com/oneclick-ui/company/WellmarkInc/publication/d1915985-41f6-4f2f-a6ae-009498cb464e",
   "site": "jobs.smartrecruiters.com",
   "title": "Easy apply - Software Engineer Internship – AI Platform Team - Wellmark, Inc.",
-  "extractorVersion": "1.0.1",
-  "collectedAt": "2026-11-03T22:00:32.984Z",
+  "extractorVersion": "1.1",
+  "collectedAt": "2026-11-12T04:16:07.454Z",
   "fields": [
     {
       "order": 0,
@@ -11,15 +11,16 @@
       "type": "file",
       "name": "",
       "id": "spl-dropzone-file-input-2",
-      "label": "Choose a file or drop it here",
+      "label": "Choose a file",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 1,
@@ -28,14 +29,15 @@
       "name": "",
       "id": "first-name-input",
       "label": "First name",
+      "option": "",
       "required": true,
       "autocomplete": "given-name",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 2,
@@ -44,14 +46,15 @@
       "name": "",
       "id": "last-name-input",
       "label": "Last name",
+      "option": "",
       "required": true,
       "autocomplete": "family-name",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 3,
@@ -60,14 +63,15 @@
       "name": "",
       "id": "email-input",
       "label": "Email",
+      "option": "",
       "required": true,
       "autocomplete": "email",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 4,
@@ -76,14 +80,15 @@
       "name": "",
       "id": "confirm-email-input",
       "label": "Confirm your email",
+      "option": "",
       "required": true,
       "autocomplete": "email",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 5,
@@ -92,14 +97,15 @@
       "name": "",
       "id": "",
       "label": "Search by country/region or code",
+      "option": "",
       "required": false,
       "autocomplete": "off",
       "placeholder": "Search by country/region or code",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": false,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 6,
@@ -108,14 +114,15 @@
       "name": "",
       "id": "spl-form-element_3",
       "label": "Phone number",
+      "option": "",
       "required": true,
       "autocomplete": "off",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 7,
@@ -124,14 +131,15 @@
       "name": "",
       "id": "linkedin-input",
       "label": "LinkedIn",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 8,
@@ -140,14 +148,15 @@
       "name": "",
       "id": "website-input",
       "label": "Website",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     },
     {
       "order": 9,
@@ -155,15 +164,16 @@
       "type": "file",
       "name": "",
       "id": "spl-dropzone-file-input-1",
-      "label": "Choose a file or drop it here",
+      "label": "Choose a file",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": false
     },
     {
       "order": 10,
@@ -172,14 +182,15 @@
       "name": "",
       "id": "hiring-manager-message-input",
       "label": "Let the company know about your interest working there",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "",
       "group": "",
-      "visible": true,
-      "fieldPath": ""
+      "visible": true
     }
   ]
 }

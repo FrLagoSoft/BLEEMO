@@ -2,8 +2,8 @@
   "url": "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c/apply",
   "site": "jobs.lever.co",
   "title": "Kepler Communications - Software Engineering Intern (January 2027)",
-  "extractorVersion": "0.7.2",
-  "collectedAt": "2026-10-20T21:26:45.327Z",
+  "extractorVersion": "1.1",
+  "collectedAt": "2026-11-12T04:15:20.024Z",
   "fields": [
     {
       "order": 0,
@@ -12,12 +12,15 @@
       "name": "resume",
       "id": "resume-upload-input",
       "label": "Resume/CV",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "SUBMIT YOUR APPLICATION",
-      "group": ""
+      "group": "",
+      "visible": false
     },
     {
       "order": 1,
@@ -26,12 +29,15 @@
       "name": "name",
       "id": "",
       "label": "Full name",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "SUBMIT YOUR APPLICATION",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 2,
@@ -40,12 +46,15 @@
       "name": "email",
       "id": "",
       "label": "Email",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "SUBMIT YOUR APPLICATION",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 3,
@@ -54,12 +63,15 @@
       "name": "phone",
       "id": "",
       "label": "Phone",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "SUBMIT YOUR APPLICATION",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 4,
@@ -68,12 +80,15 @@
       "name": "location",
       "id": "location-input",
       "label": "Current location",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "SUBMIT YOUR APPLICATION",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 5,
@@ -82,12 +97,15 @@
       "name": "org",
       "id": "",
       "label": "Current company",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "SUBMIT YOUR APPLICATION",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 6,
@@ -96,12 +114,15 @@
       "name": "urls[LinkedIn]",
       "id": "",
       "label": "LinkedIn URL",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "LINKS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 7,
@@ -110,12 +131,15 @@
       "name": "urls[Twitter]",
       "id": "",
       "label": "Twitter URL",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "LINKS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 8,
@@ -124,12 +148,15 @@
       "name": "urls[GitHub]",
       "id": "",
       "label": "GitHub URL",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "LINKS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 9,
@@ -138,12 +165,15 @@
       "name": "urls[Portfolio]",
       "id": "",
       "label": "Portfolio URL",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "LINKS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 10,
@@ -152,12 +182,15 @@
       "name": "urls[Other]",
       "id": "",
       "label": "Other website",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "LINKS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 11,
@@ -166,12 +199,15 @@
       "name": "urls[Website/Blog]",
       "id": "",
       "label": "Website/Blog URL",
+      "option": "",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "LINKS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 12,
@@ -180,12 +216,15 @@
       "name": "cards[f6189244-e242-4b19-8bac-bac28b3f023a][field0]",
       "id": "",
       "label": "Will you be enrolled as a student at a Canadian post-secondary institution for the duration of your internship? (Note enrolled does not necessarily mean taking classes if you are a part of an official co-op or internship program)",
+      "option": "Yes",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "STUDENT STATUS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 13,
@@ -194,12 +233,15 @@
       "name": "cards[f6189244-e242-4b19-8bac-bac28b3f023a][field1]",
       "id": "",
       "label": "Will you be returning to your studies after the internship?",
+      "option": "Yes",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "STUDENT STATUS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 14,
@@ -208,12 +250,15 @@
       "name": "cards[9c30079c-fb08-459a-a221-e9d67212b174][field0]",
       "id": "",
       "label": "Are you legally able to work in Canada according to the laws and regulations of the province or territory where you live?",
+      "option": "Yes",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "WORK ELIGIBILITY - CANADA",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 15,
@@ -222,12 +267,15 @@
       "name": "cards[af85d5f5-8e85-4e66-b193-ae1cd99ab39e][field0]",
       "id": "",
       "label": "Please indicate your availability for the internship.",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "INTERNSHIP DURATION (4-16 MONTHS)",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 16,
@@ -236,12 +284,15 @@
       "name": "cards[60503da9-02e5-4d1a-b9a9-e6bdfa4893ea][field0]",
       "id": "",
       "label": "Have you had prior experience using Python on a design team or a Software development internship?",
+      "option": "Yes",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "HAVE YOU HAD PRIOR EXPERIENCE USING PYTHON ON A DESIGN TEAM OR A SOFTWARE DEVELOPMENT INTERNSHIP?",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 17,
@@ -250,12 +301,15 @@
       "name": "cards[60503da9-02e5-4d1a-b9a9-e6bdfa4893ea][field1]",
       "id": "",
       "label": "If yes, please describe the experience briefly. If no, write \"N/A\".",
+      "option": "",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "HAVE YOU HAD PRIOR EXPERIENCE USING PYTHON ON A DESIGN TEAM OR A SOFTWARE DEVELOPMENT INTERNSHIP?",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 18,
@@ -264,12 +318,15 @@
       "name": "cards[5807e2f8-c610-43d3-8f70-a0904d717bd7][field0]",
       "id": "",
       "label": "Do you have experience writing unit tests or supporting test automation in a software development environment?",
+      "option": "Yes",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "DO YOU HAVE EXPERIENCE WRITING UNIT TESTS OR SUPPORTING TEST AUTOMATION IN A SOFTWARE DEVELOPMENT ENVIRONMENT?",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 19,
@@ -278,12 +335,15 @@
       "name": "cards[f543d1aa-4a26-428e-9edc-1708a8d28869][field0]",
       "id": "",
       "label": "This position requires you to work from the Toronto Office located at 24 Ward Street, Toronto ON M6H 4A6. Are you able to work from our Kepler office as required?",
+      "option": "Yes",
       "required": true,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "OFFICE REQUIREMENT",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 20,
@@ -292,12 +352,15 @@
       "name": "surveysResponses[c228d8ba-49fc-4102-9760-f057a46e4500][responses][field0]",
       "id": "",
       "label": "What is your age range?",
+      "option": "17 or younger",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "DEMOGRAPHIC SURVEY FOR KEPLER COMMUNICATIONS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 21,
@@ -306,12 +369,15 @@
       "name": "surveysResponses[c228d8ba-49fc-4102-9760-f057a46e4500][responses][field1]",
       "id": "",
       "label": "With which ethnicity do you identify?",
+      "option": "White or Caucasian",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "DEMOGRAPHIC SURVEY FOR KEPLER COMMUNICATIONS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 22,
@@ -320,12 +386,15 @@
       "name": "surveysResponses[c228d8ba-49fc-4102-9760-f057a46e4500][responses][field2]",
       "id": "",
       "label": "With which gender do you identify?",
+      "option": "Female",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "DEMOGRAPHIC SURVEY FOR KEPLER COMMUNICATIONS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 23,
@@ -334,12 +403,15 @@
       "name": "surveysResponses[c228d8ba-49fc-4102-9760-f057a46e4500][responses][field3]",
       "id": "",
       "label": "With which sexual orientation do you identify?",
+      "option": "Heterosexual",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "DEMOGRAPHIC SURVEY FOR KEPLER COMMUNICATIONS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 24,
@@ -348,12 +420,15 @@
       "name": "surveysResponses[c228d8ba-49fc-4102-9760-f057a46e4500][responses][field4]",
       "id": "",
       "label": "Do you identify as a person with a visible or non-visible disability?",
+      "option": "Yes",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "DEMOGRAPHIC SURVEY FOR KEPLER COMMUNICATIONS",
-      "group": ""
+      "group": "",
+      "visible": true
     },
     {
       "order": 25,
@@ -362,12 +437,15 @@
       "name": "surveysResponses[c228d8ba-49fc-4102-9760-f057a46e4500][responses][field5]",
       "id": "",
       "label": "Are you a veteran/have you served in the military?",
+      "option": "Yes",
       "required": false,
       "autocomplete": "",
       "placeholder": "",
       "automationId": "",
+      "fieldPath": "",
       "section": "DEMOGRAPHIC SURVEY FOR KEPLER COMMUNICATIONS",
-      "group": ""
+      "group": "",
+      "visible": true
     }
   ]
 }
