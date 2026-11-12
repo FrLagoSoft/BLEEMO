@@ -1,5 +1,5 @@
 (() => {
-  const EXTRACTOR_VERSION = "1.1"; // Bump this with EVERY change to the extractor
+  const EXTRACTOR_VERSION = "1.1.1"; // Bump this with EVERY change to the extractor
 
   const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)); // Pause an async function for ms milliseconds
 
@@ -86,6 +86,7 @@
     function clean(text) {
       return (
         (text ?? "")
+          .replace(/\((required|optional)\)/gi, "")
           .replace(/\(\d+\)|[*✱]/g, "")
           .split("\n")
           .map((line) => line.trim())
@@ -246,7 +247,8 @@
               rawLabel.includes("*") ||
               rawLabel.includes("✱") ||
               labelSource.includes("*") ||
-              labelSource.includes("✱")),
+              labelSource.includes("✱") ||
+              /\(required\)/i.test(labelSource)),
           autocomplete: el.autocomplete ?? "",
           placeholder: el.placeholder ?? "",
           automationId: el.closest("[data-automation-id^='formField-']")?.dataset.automationId ?? "",
